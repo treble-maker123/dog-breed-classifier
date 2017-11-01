@@ -1,2 +1,11 @@
 # MacOS stuff
 .DS_Store
+
+# Don't track Images
+dogImages/**
+
+# Don't track bottleneck features
+bottleneck_features/**
+
+# No models either
+saved_models/**
