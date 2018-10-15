@@ -7,7 +7,8 @@ from keras.callbacks import ModelCheckpoint
 
 from sklearn.datasets import load_files
 
-from PIL import ImageFile  
+from PIL import ImageFile
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True # otherwise exception is thrown
 
 import numpy as np
@@ -15,7 +16,7 @@ import numpy as np
 train_path = 'dogImages/train'
 valid_path = 'dogImages/valid'
 test_path = 'dogImages/test'
-model_output = "saved_models/dog-classifier-with-data-aug.hdf5"
+model_output = "saved_models/dog-classifier-test.hdf5"
 
 batch_size = 16
 
